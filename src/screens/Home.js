@@ -17,6 +17,9 @@ type Props = {
 };
 
 export default class Home extends Component<Props> {
+  static navigationOptions = {
+    header: null
+  }
   render() {
     return (
       <Wrapper>

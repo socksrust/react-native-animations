@@ -17,6 +17,7 @@ import Animatable from './src/screens/AnimatableList';
 import Lottie from './src/screens/LottieList';
 
 //Animated Views
+import InfinitySpinAnimated from './src/Animated/InfinitySpin'
 
 //Animatable Views
 
@@ -38,6 +39,10 @@ const RootStack = StackNavigator(
     },
     Animatable: {
       screen: Animatable,
+    },
+    //Animated Views
+    InfinitySpinAnimated: {
+      screen: InfinitySpinAnimated,
     },
 
     //Lottie Views
