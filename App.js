@@ -9,6 +9,8 @@ import {
 } from 'react-native';
 import { StackNavigator } from 'react-navigation';
 
+import Home from './src/screens/Home';
+
 //Main animations Views
 import Animated from './src/screens/AnimatedList';
 import Animatable from './src/screens/AnimatableList';
@@ -25,6 +27,9 @@ import WorldLottie from './src/Lottie/World'
 
 const RootStack = StackNavigator(
   {
+    Home: {
+      screen: Home,
+    },
     Lottie: {
       screen: Lottie,
     },
@@ -48,7 +53,7 @@ const RootStack = StackNavigator(
 
   },
   {
-    initialRouteName: 'Lottie',
+    initialRouteName: 'Home',
   }
 );
 
