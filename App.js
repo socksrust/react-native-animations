@@ -19,7 +19,13 @@ import Lottie from './src/screens/LottieList';
 //Animated Views
 import InfinitySpinAnimated from './src/Animated/InfinitySpin'
 
-//Animatable Views
+//Animatable View
+import FadeInAnimatable from './src/Animatable/FadeIn'
+import FadeInDownAnimatable from './src/Animatable/FadeInDown'
+import LightSpeedInAnimatable from './src/Animatable/LightSpeedIn'
+import LightSpeedOutAnimatable from './src/Animatable/LightSpeedOut'
+import ZoomInAnimatable from './src/Animatable/ZoomIn'
+import ZoomOutAnimatable from './src/Animatable/ZoomOut'
 
 //Lottie Views
 import SendEmailLottie from './src/Lottie/SendEmail'
@@ -43,6 +49,26 @@ const RootStack = StackNavigator(
     //Animated Views
     InfinitySpinAnimated: {
       screen: InfinitySpinAnimated,
+    },
+
+    //Animatable Views
+    FadeInAnimatable: {
+      screen: FadeInAnimatable,
+    },
+    FadeInDownAnimatable: {
+      screen: FadeInDownAnimatable,
+    },
+    LightSpeedInAnimatable: {
+      screen: LightSpeedInAnimatable,
+    },
+    LightSpeedOutAnimatable: {
+      screen: LightSpeedOutAnimatable,
+    },
+    ZoomInAnimatable: {
+      screen: ZoomInAnimatable,
+    },
+    ZoomOutAnimatable: {
+      screen: ZoomOutAnimatable,
     },
 
     //Lottie Views
