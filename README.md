@@ -2,7 +2,7 @@
 
 ## SETUP
 ```
-yarn
+yarn & npm
 react-native link
 ```
 
