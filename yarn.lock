@@ -1605,7 +1605,7 @@ compressible@~2.0.13:
 
 compression@^1.7.1:
   version "1.7.2"
-  resolved "http://registry.npmjs.org/compression/-/compression-1.7.2.tgz#aaffbcd6aaf854b44ebb280353d5ad1651f59a69"
+  resolved "https://registry.npmjs.org/compression/-/compression-1.7.2.tgz#aaffbcd6aaf854b44ebb280353d5ad1651f59a69"
   dependencies:
     accepts "~1.3.4"
     bytes "3.0.0"
@@ -4393,9 +4393,9 @@ react-native-safe-module@^1.1.0:
   dependencies:
     prop-types "^15.6.0"
 
-react-native@0.55.1:
-  version "0.55.1"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.55.1.tgz#0ca06b3e1bcb8ddfb56b916a3853d423f9ee6439"
+react-native@0.55.4:
+  version "0.55.4"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.55.4.tgz#eecffada3750a928e2ddd07cf11d857ae9751c30"
   dependencies:
     absolute-path "^0.0.0"
     art "^0.10.0"
