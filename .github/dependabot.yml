@@ -1,0 +1,18 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "09:00"
+  pull-request-branch-name:
+    separator: "-"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: react-navigation
+    versions:
+    - 4.4.3
+  - dependency-name: handlebars
+    versions:
+    - 4.7.6
+  rebase-strategy: disabled
